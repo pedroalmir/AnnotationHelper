@@ -1,13 +1,15 @@
 subprojects{
-	apply plugin: 'java'
+    apply plugin: 'java'
 
-	repositories{
-		mavenCentral()
-	}
+    repositories{
+        mavenCentral()
+    }
+    
+    sourceCompatibility = 1.6
 }
 
 project(':core'){
-	dependencies{
-		compile 'net.sourceforge.collections:collections-generic:4.01'
-	}
+    dependencies{
+        compile 'net.sourceforge.collections:collections-generic:4.01'
+    }
 }
