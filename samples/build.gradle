@@ -2,4 +2,10 @@ apply plugin: 'java'
 
 dependencies{
 	compile project(':core')
+        compile project(':plugin')
+}
+
+//TODO add a task to create a jar for generating plugin jars in the plugins directory to run the plugin sample.
+task createSamplePluginJar{
+	
 }

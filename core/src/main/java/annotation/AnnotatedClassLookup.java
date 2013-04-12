@@ -31,6 +31,10 @@ public class AnnotatedClassLookup {
         loadPlugins();
     }
 
+    public AnnotatedClassLookup(String plugins) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     /**
      * Load plugins from the plugin directory.
      *
@@ -49,7 +53,7 @@ public class AnnotatedClassLookup {
                 }
             }
         } else {
-            System.err.println("Plugin Directory does not exist");
+            System.err.println("Plugin Directory " + classDirectory.getAbsolutePath() + " does not exist");
         }
     }
 

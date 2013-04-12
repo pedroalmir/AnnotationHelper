@@ -1,1 +1,1 @@
-include 'core', 'samples'
+include 'core', 'samples', 'plugin'
